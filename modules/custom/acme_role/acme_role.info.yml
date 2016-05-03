@@ -4,5 +4,6 @@ type: module
 core: 8.x
 dependencies:
   - user
+  - acme_session
 version: 8.x-1.0-beta1
 package: acme
