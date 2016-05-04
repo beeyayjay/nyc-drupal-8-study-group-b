@@ -10,5 +10,6 @@ dependencies:
   - taxonomy
   - text
   - user
+  - views
 version: 8.x-1.0-beta1
-package: acme
+package: ACME

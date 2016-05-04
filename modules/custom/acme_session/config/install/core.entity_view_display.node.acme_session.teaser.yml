@@ -4,6 +4,8 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.acme_session.body
+    - field.field.node.acme_session.field_acme_session_status
+    - field.field.node.acme_session.field_acme_speaker
     - node.type.acme_session
   module:
     - text
@@ -22,4 +24,6 @@ content:
     third_party_settings: {  }
   links:
     weight: 100
-hidden: {  }
+hidden:
+  field_acme_session_status: true
+  field_acme_speaker: true
